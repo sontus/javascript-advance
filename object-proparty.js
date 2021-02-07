@@ -16,3 +16,11 @@ const students = [
 
 // }
 
+const name = students.map(s => s.name);
+const ids   = students.map(t => t.id);
+const bigger  = students.filter(s => s.id > 20);
+const find = students.find(s => s.id > 20);
+console.log(name);
+console.log(ids);
+console.log(bigger);
+console.log(find);
